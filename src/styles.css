@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  color: #222222;
+  font-family: "Fredoka";
+  font-size: 2em;
+  justify-content: end;
+  align-items: center;
+  height: 50px;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  color: #222222;
+}
+
+.window {
+  display: flex;
+}
+
+.items-window {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #faf7f2;
+  border-top: solid 1px #d9d9d9;
+}
+
+.product-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+  padding: 1em;
+}
+
+.product-name {
+  font-family: "Fredoka";
+  font-size: 2em;
+  color: #301a4b;
+  margin-bottom: 0.5em;
+}
+
+.product-image {
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+}
+
+.product-price {
+  font-family: "Fredoka";
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #222222;
+}
+.product-description {
+  font-family: "Fredoka";
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  color: #999999;
+}
+
+.organisation {
+  padding: 2em;
+  background-color: #faf7f2;
+  border-right: solid 1px #d9d9d9;
+  border-top: solid 1px #d9d9d9;
+}
+
+.search-box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 220px;
+}
+
+.input {
+  height: 20px;
+  border-radius: 50px;
+  border: none;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+.magnifier {
+  position: absolute;
+  right: 10px;
+}
+
+.sort-box,
+.filter-box {
+  margin-top: 2em;
+}
+
+.sort-title,
+.filter-title {
+  font-family: "Fredoka";
+  color: #301a4b;
+  margin-bottom: 1em;
+}
+
+.sort-option {
+  font-family: "Fredoka";
+  color: #999999;
+  margin-bottom: 0.5em;
+}
+
+.sort-option:hover {
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.price-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.price-input {
+  width: 80px;
+  height: 25px;
+}
+
+.euro {
+  position: absolute;
+  right: 5px;
+}
